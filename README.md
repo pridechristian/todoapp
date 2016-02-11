@@ -9,7 +9,7 @@ All environment handled via [Docker](https://www.docker.com/), so all you need t
 
 First of all we need to install dependencies:
 
- - [Docker](https://www.docker.com/) and docker-compose
+ - [Docker](https://www.docker.com/) and docker-compose (Docker 1.9+, Docker-compose 1.6+)
  - Composer dependencies via `make install`
 
 When you are done, start containers by running `docker-compose up -d` and we are ready to go.

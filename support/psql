@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker run --net todoapp_default -it --rm postgres:9.4 sh -c \
+    'exec psql -h database -p 5432 -U todoapp'
